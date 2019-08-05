@@ -1,0 +1,2 @@
+class XrpJpyHistory < ApplicationRecord
+end
