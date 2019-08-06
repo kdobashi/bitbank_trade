@@ -27,4 +27,4 @@
 /config/master.key
 
 # Ignore API key info
-/config/bitbanksetting.yml
+config/bitbanksetting.yml
