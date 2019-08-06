@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 概要
+bitbankで自動で売買を行う。
+## 使用方法
+bitbanksetting.ymlにて自身のAPI_KEYとSECRET_KEYを設定する。
+Herokuにデプロイ、Heroku PostgresのDBを構築する。
+Heroku Schedulerを使用して、10分毎に"rake orders:buy"を実行する想定。
+※ 使用する場合は、自己責任です。
